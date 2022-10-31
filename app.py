@@ -11,8 +11,8 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 def home():
     info = {'slackUsername': 'OlaJosh',
             'backend': True,
-            'Age': 28,
-            'Bio': 'I love writing functional codes on the backend'}
+            'age': 28,
+            'bio': 'I love writing functional codes on the backend'}
     return jsonify(info)
 
 
