@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+../AirBnB_clone_v4/.gitignore
+bin/
+lib64
+pyvenv.cfg
+.gitignore
